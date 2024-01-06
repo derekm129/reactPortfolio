@@ -1,27 +1,17 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutMe from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-import Navbar from './components/navbar';
-
-
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/NavTabs';
 
 function App() {
+  // The Outlet component will conditionally swap between the different pages according to the URL
   return (
-    <div className='App'>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<AboutMe />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/resume' element={<Resume />} />
-        </Routes>
-      </Router>
-    </div>
+    <>
+      <Nav />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+    </>
   );
 }
 
-export default App
+export default App;
