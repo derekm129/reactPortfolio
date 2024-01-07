@@ -1,42 +1,112 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  box-sizing: border-box;
+}
+
+/* Elements */
+h1 {
+  font-size: 50px;
+  display: inline-block;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: 15px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: rgb(100, 226, 62);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+header {
+  border-bottom: solid; 
+}
+/* Navbar */
+header nav {
+  float: right;
+ 
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 35px;;
+}
+
+
+/* Profile Picture */
+#profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 200px;
+  border-radius: 75px;
+ 
+}
+
+/* Project Sections */
+.project {
+height: 300px;  
+border: solid;
+padding: 10px;
+}
+
+/* Project images */
+#horisean {
+  height: 250px;
+  width: 500px
+}
+
+#project-pictures {
+  height: 150px;
+  width: 300px; 
+}
+
+
+#coming-soon {
+  height: 150px;
+  width: 300px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Footer */
+
+#contact ul li {
+  float: left;
+  margin-right: 10px;
+}
+
+/*Media Query  */
+
+@media screen and (max-width: 768px) {
+  body {
+      background-color: rgb(67, 200, 233);
+  
+  #horisean {
+      height: 150px;
+      width: 250px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #project-pictures {
+      height: 100px;
+      width: 200px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
