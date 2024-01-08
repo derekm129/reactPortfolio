@@ -1,20 +1,19 @@
 export default function Contact() {
     return (
       <div>
-        <h1>Contact Page</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+        <h1>Contact</h1>
+       <section>
+          <div className="container mb-3">
+            <form className="form-control card flex-center dir-column p-1">
+              <input type="text" placeholder="Full Name" name="user_name" className="m-1" required />
+              <input type="text" placeholder="Email" name="user_email" className="m-1" required />
+              <input type="text" placeholder="Subject" name="user_subject" className="m-1" required />
+              <textarea name="message" cols="30" rows="10" className="m-1"></textarea>
+              <button type="submit" className="--btn--btn-primary m-1">Send Message</button>
+            </form>
+          </div>
+   
+       </section>
       </div>
     );
   }
