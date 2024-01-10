@@ -70,9 +70,25 @@ header nav ul li {
 
 /* Project Sections */
 .project {
-height: 300px;  
-border: solid;
-padding: 10px;
+position: relative;
+height: 175px;  
+width: 325px;
+
+
+text-align: center;
+}
+
+.project-title {
+  position: relative;
+  top: 5%;
+  right: 13%;
+  color: black;
+  font-size: 25px;
+  padding: 5px;
+}
+
+body .project-title:hover {
+  display: block;
 }
 
 /* Project images */
