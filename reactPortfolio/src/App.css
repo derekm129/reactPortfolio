@@ -103,6 +103,10 @@ body .project-title:hover {
   width: 300px; 
 }
 
+#resumeImg {
+  height: 750px;
+  width: 550px; 
+}
 
 #coming-soon {
   height: 150px;

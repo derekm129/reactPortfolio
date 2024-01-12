@@ -43,17 +43,6 @@ export default function Home() {
           body={calendar}
           title={"Calendar App"}
         />
-        
-     
-
-            {/* <section className="project">
-                <a href="https://lildano50.github.io/group-project-1/"> 
-                  <img src={project1} id="project-pictures" className="float-left"/>
-                </a>
-                <h3>What to Do</h3>
-          
-            </section> */} 
-
       </div>
     );
   }
