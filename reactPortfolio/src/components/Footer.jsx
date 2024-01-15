@@ -1,13 +1,15 @@
-import { Link } from 'react-router-dom';
-import { GitLink} from '../assets/images/github.png';
+// import { Link } from 'react-router-dom';
+import GitLink from '../assets/images/github.png';
 
 const Footer = () => {
     return(
         <div>
-             <a href="https://nameless-wave-14504-8d3cae4aaa8e.herokuapp.com/">
-                <img src={GitLink} id="git-picture" className="align-center"/>
+             <a href="https://github.com/derekm129">
+                <img src={GitLink} id="git-picture" className="position-absolute bottom-0 start-50"/>
             </a>
         </div>
        
     );
 }
+
+export default Footer;
