@@ -10,6 +10,7 @@ import ecommerce from '../assets/images/e-commerce.png';
 import employeeTracker from '../assets/images/employeeTracker.png';
 import calendar from '../assets/images/calendar.png';
 
+// Home Page
 export default function Home() {
   return (
     <div className='projects-list'>
@@ -23,7 +24,7 @@ export default function Home() {
         url={"https://syntax-8rz6.onrender.com/"}
         deployment={"https://github.com/grayd500/Syntax"}
         body={syntax}
-        title={"Plant Parenthood"}
+        title={"Syntax"}
       />
       <Project
         url={"https://lildano50.github.io/group-project-1/"}

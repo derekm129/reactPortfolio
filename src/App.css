@@ -44,6 +44,7 @@ body {
 header {
   border-bottom: solid; 
 }
+
 /* Navbar */
 header nav {
   float: right;
@@ -69,14 +70,27 @@ header nav ul li {
 }
 
 /* Project Sections */
-/* .project {
+.project {
   float: left;
   width: 50%;
   padding: 10px;
   height: 175px;  
   width: 325px;
   margin-top: 20px;
-} */
+}
+
+.anotherContainer:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-title:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  color: blue;
+}
+
+
 
 .projects-list{
   display: flex;
