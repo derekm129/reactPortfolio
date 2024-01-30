@@ -44,6 +44,7 @@ body {
 header {
   border-bottom: solid; 
 }
+
 /* Navbar */
 header nav {
   float: right;
@@ -78,17 +79,62 @@ header nav ul li {
   margin-top: 20px;
 }
 
+.anotherContainer:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-title:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  color: blue;
+}
+
+
+
+.projects-list{
+  display: flex;
+  flex-wrap:wrap;
+  gap:5%;
+}
 
 
 .project-title {
-  float: left;
+  /* float: left; */
   color: black;
   font-size: 25px;
   margin-top: 20px;
   
 }
 
-body .project-title:hover {
+.parentContainer {
+  width:22%;
+  
+}
+.anotherContainer{
+  position: relative;
+
+}
+
+.projectContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 900;
+  right:0;
+  transition:all .5s ease-in-out;
+}
+
+.projectContainer:hover {
+  background-color: azure;
+  opacity: 1;
+  border: 5px solid rgb(136, 25, 25);
+  height: 150px;
+  width: 300px;
+}
+
+body {
   display: block;
 }
 
@@ -103,7 +149,7 @@ body .project-title:hover {
   width: 500px
 }
 
-#project-pictures {
+.project-pictures {
   height: 150px;
   width: 300px; 
 }
