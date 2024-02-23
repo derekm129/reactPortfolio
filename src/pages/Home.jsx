@@ -23,12 +23,6 @@ export default function Home() {
         title={"Password Generator"}
       />
       <Project
-        url={"https://syntax-8rz6.onrender.com/"}
-        deployment={"https://github.com/grayd500/Syntax"}
-        body={syntax}
-        title={"Fictional Band Page"}
-      />
-      <Project
         url={"https://derekm129.github.io/timedQuiz/"}
         deployment={"https://github.com/derekm129/timedQuiz"}
         body={quiz}
@@ -51,6 +45,12 @@ export default function Home() {
         deployment={"https://github.com/derekm129/calendarApp"}
         body={calendar}
         title={"Calendar App"}
+      />
+      <Project
+        url={"https://syntax-8rz6.onrender.com/"}
+        deployment={"https://github.com/grayd500/Syntax"}
+        body={syntax}
+        title={"Fictional Band Page"}
       />
     </div>
   );

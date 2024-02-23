@@ -30,7 +30,7 @@ export default function Contact() {
             {/* Subject */}
             <input type="text" placeholder="Subject" name="user_subject" className="m-1" required />
             {/* Text Area */}
-            <textarea name="message" cols="30" rows="10" className="m-1"></textarea>
+            <textarea name="message" cols="30" rows="10" className="m-1" ></textarea>
             {/* Submit Button */}
             <button type="submit" value="Send" className="--btn--btn-primary m-1">Send Message</button>
           </form>
