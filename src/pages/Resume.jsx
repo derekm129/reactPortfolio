@@ -1,5 +1,5 @@
 import ResumePDF from '../utils/DerekModugno_Resume2024.pdf';
-import resumejpg from '../assets/images/resume.png'
+import resumejpg from '../assets/images/resume.png';
 
 function App() {
   return (
