@@ -9,8 +9,8 @@ export default function About() {
           <img src={profilePic} id="profilePic" />
           {/* Bio */}
           <p className='m-2'>
-            Hello, I'm Derek Modugno and I'm a fullstack developer! I live in St. Louis, Missouri and am skilled with HTML, CSS, Javascript, React, and Git.
-            I am currently enrolled in the UT Austin Coding Bootcamp.
+            Hello, I'm Derek Modugno and I'm a fullstack web developer! Skilled in JavaScript, CSS, HTML, and GitHub. I have a Web Development Bootcamp Certificate from the 
+            University of Texas, Austin, and a Bachelor's of Arts from Indiana University, Bloomington. I work well with a team as well as independantly.
           </p>
         </div>
       </div>
