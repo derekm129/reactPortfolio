@@ -1,5 +1,5 @@
 import ResumePDF from '../utils/DerekModugno_Resume2024.pdf';
-import resumejpg from '../assets/images/resume.png';
+import resumejpg from '../assets/images/resume1.png';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         rel="noreferrer"
       >
         {/* Download Button */}
-        <button className="btn btn-primary m-2">Download .pdf file</button>
+        <button className="btn btn-primary m-4">Download .pdf file</button>
       </a>
     </div>
   )

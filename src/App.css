@@ -68,7 +68,7 @@ header nav ul li {
   margin-left: auto;
   margin-right: auto;
   height: 150px;
-  width: 200px;
+  width: 175px;
   border-radius: 75px;
  
 }
@@ -88,11 +88,11 @@ header nav ul li {
   transition: transform 0.3s ease-in-out;
 }
 
-.project-title:hover {
+/* .project-title:hover {
   transform: scale(1.2);
   transition: transform 0.3s ease-in-out;
   color: blue;
-}
+} */
 
 
 

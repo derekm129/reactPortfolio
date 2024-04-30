@@ -19,37 +19,37 @@ export default function Home() {
       <div className='projects-list justify-content-center'>
         <Project
           url={"https://derekm129.github.io/passwordGenerator/"}
-          deployment={"https://github.com/derekm129/passwordGenerator"}
+          // deployment={"https://github.com/derekm129/passwordGenerator"}
           body={pwGenerator}
           title={"Password Generator"}
         />
         <Project
           url={"https://derekm129.github.io/timedQuiz/"}
-          deployment={"https://github.com/derekm129/timedQuiz"}
+          // deployment={"https://github.com/derekm129/timedQuiz"}
           body={quiz}
           title={"TimedQuiz"}
         />
         <Project
           url={"https://github.com/derekm129/E-commerce-Back-End"}
-          deployment={"https://github.com/derekm129/E-commerce-Back-End"}
+          // deployment={"https://github.com/derekm129/E-commerce-Back-End"}
           body={ecommerce}
           title={"E-Commerce Backend"}
         />
         <Project
           url={"https://github.com/derekm129/Employee-Tracker"}
-          deployment={"https://github.com/derekm129/Employee-Tracker"}
+          // deployment={"https://github.com/derekm129/Employee-Tracker"}
           body={employeeTracker}
           title={"Employee Tracker"}
         />
         <Project
           url={"https://derekm129.github.io/calendarApp/"}
-          deployment={"https://github.com/derekm129/calendarApp"}
+          // deployment={"https://github.com/derekm129/calendarApp"}
           body={calendar}
           title={"Calendar App"}
         />
         <Project
           url={"https://syntax-8rz6.onrender.com/"}
-          deployment={"https://github.com/grayd500/Syntax"}
+          // deployment={"https://github.com/grayd500/Syntax"}
           body={syntax}
           title={"Fictional Band Page"}
         />
