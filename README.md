@@ -2,18 +2,18 @@
 
 ## Description
 
-- My goal for this project was to create a website with React. 
-I created this project so that I could have a webpage that shows potential employers my work portfolio.
-This website allows me to tell employers about me with links to my portfolio, resume, and contact page. 
-This project taught me how to create a responsive portfolio using React.
+- The aim of this project is to showcase a professional portfolio website developed using React. 
+It serves as a platform for presenting my work portfolio to potential employers, providing them with insights into my skills and experiences.
+Through this website, I offer a comprehensive overview of my projects, resume, and contact information. 
+This project has been instrumental in honing my skills in creating responsive web designs using React.
 
 ## Installation
 
-N/A
+No specific installation steps are required for this project.
 
 ## Usage
 
-This webpage shows my professional portfolio with links to my projects, contact page, resume, and about me.
+This webpage serves as a dynamic display of my professional portfolio with links to Projects, Contact Page, Resume, and About Me.
 
 ![My Portfolio](./src/assets/images/screenshot.png)
 
@@ -21,10 +21,10 @@ https://main--shimmering-parfait-ac6ce5.netlify.app/
 
 ## Credits
 
-N/A
+This project was independently developed.
 
 ## License
 
-Please refer to the license in the repo.
+Please refer to the license file included in the repo.
 
 ---
