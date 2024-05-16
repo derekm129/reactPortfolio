@@ -4,7 +4,7 @@
 
 - The aim of this project is to showcase a professional portfolio website developed using React. 
 It serves as a platform for presenting my work portfolio to potential employers, providing them with insights into my skills and experiences.
-Through this website, I offer a comprehensive overview of my projects, resume, and contact information. 
+Through this website, I offer an overview of my projects, resume, and contact information. 
 This project has been instrumental in honing my skills in creating responsive web designs using React.
 
 ## Installation
