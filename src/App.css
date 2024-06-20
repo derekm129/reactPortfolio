@@ -45,8 +45,17 @@ body {
   background: black;
 }
 
+/* Header */
 header {
   border-bottom: solid; 
+}
+
+.header {
+  background-image: url('./assets/images/green-background.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white; 
 }
 
 /* Navbar */
@@ -55,12 +64,15 @@ header nav {
  
 }
 
+.nav-link {
+  color: white;
+}
+
 header nav ul li {
   display: inline-block;
   margin-left: 20px;
   margin-top: 35px;;
 }
-
 
 /* Profile Picture */
 #profilePic {
