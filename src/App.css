@@ -196,7 +196,7 @@ body {
 
 /*Media Query  */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   body {
       background-color: rgb(67, 200, 233);
   
@@ -210,4 +210,4 @@ body {
       width: 200px;
     }
   }
-}
+} */
