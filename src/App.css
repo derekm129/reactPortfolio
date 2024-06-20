@@ -45,6 +45,7 @@ body {
   background: black;
 }
 
+/* Header */
 header {
   border-bottom: solid; 
 }
@@ -61,6 +62,10 @@ header {
 header nav {
   float: right;
  
+}
+
+.nav-link {
+  color: white;
 }
 
 header nav ul li {
