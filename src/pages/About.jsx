@@ -14,6 +14,14 @@ export default function About() {
           </p>
         </div>
       </div>
+      <div className="buttons">
+        <a href="https://www.linkedin.com/in/derek-modugno-9927b72b1/">
+          <button>View Linkedin</button>
+        </a>
+        <a href="https://github.com/derekm129">
+          <button>View GitHub</button>
+        </a>
+      </div>
     </div>
 
   );
