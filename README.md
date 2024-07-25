@@ -15,7 +15,7 @@ No specific installation steps are required for this project.
 
 This webpage serves as a dynamic display of my professional portfolio with links to Projects, Contact Page, Resume, and About Me.
 
-![My Portfolio](./src/assets/images/screenshot1.png)
+![My Portfolio](./src/assets/images/screenshot2.png)
 
 https://main--shimmering-parfait-ac6ce5.netlify.app/
 
