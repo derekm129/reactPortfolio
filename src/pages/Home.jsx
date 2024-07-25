@@ -1,6 +1,7 @@
 // Imports
 // import '../App.css';
 import Project from '../components/Project';
+import '../App.css';
 
 // Project Images
 import horisean from '../assets/images/horisean.png';
@@ -15,7 +16,7 @@ import quiz from '../assets/images/quizScreenshot.png';
 // Home Page
 export default function Home() {
   return (
-    <div className='mx-auto'>
+    <div>
       <div className='projects-list justify-content-center'>
         <Project
           url={"https://derekm129.github.io/passwordGenerator/"}
