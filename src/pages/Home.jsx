@@ -1,60 +1,34 @@
-// Imports
-// import '../App.css';
-import Project from '../components/Project';
+import profilePic from '../assets/images/DerekLinkdin_Final.png';
 import '../App.css';
 
-// Project Images
-import horisean from '../assets/images/horisean.png';
-import syntax from '../assets/images/syntaxScreenshot.png';
-import project1 from '../assets/images/project1Page.png';
-import ecommerce from '../assets/images/e-commerce.png';
-import employeeTracker from '../assets/images/employeeTracker.png';
-import calendar from '../assets/images/calendar.png';
-import pwGenerator from '../assets/images/pwGeneratorScreenshot.png';
-import quiz from '../assets/images/quizScreenshot.png';
 
-// Home Page
 export default function Home() {
   return (
-    <div>
-      <div className='projects-list justify-content-center'>
-        <Project
-          url={"https://derekm129.github.io/passwordGenerator/"}
-          // deployment={"https://github.com/derekm129/passwordGenerator"}
-          body={pwGenerator}
-          title={"Password Generator"}
-        />
-        <Project
-          url={"https://derekm129.github.io/timedQuiz/"}
-          // deployment={"https://github.com/derekm129/timedQuiz"}
-          body={quiz}
-          title={"TimedQuiz"}
-        />
-        <Project
-          url={"https://github.com/derekm129/E-commerce-Back-End"}
-          // deployment={"https://github.com/derekm129/E-commerce-Back-End"}
-          body={ecommerce}
-          title={"E-Commerce Backend"}
-        />
-        <Project
-          url={"https://github.com/derekm129/Employee-Tracker"}
-          // deployment={"https://github.com/derekm129/Employee-Tracker"}
-          body={employeeTracker}
-          title={"Employee Tracker"}
-        />
-        <Project
-          url={"https://derekm129.github.io/calendarApp/"}
-          // deployment={"https://github.com/derekm129/calendarApp"}
-          body={calendar}
-          title={"Calendar App"}
-        />
-        <Project
-          url={"https://syntax-8rz6.onrender.com/"}
-          // deployment={"https://github.com/grayd500/Syntax"}
-          body={syntax}
-          title={"Fictional Band Page"}
-        />
+    <div className='container text-center'>
+      <div className='row justify-content-center align-items-center'>
+        {/* Bio */}
+        <div className='col-md-6 mt-5'>
+          <p className='m-1' style={{ color: 'white', fontSize: '2em' }} >Hello, I'm Derek Modugno and I'm a fullstack developer.</p>
+          <p className='m-1' style={{ color: 'white', fontSize: '1.5em' }}>
+            I am skilled with several technologies including JavaScript, CSS, and HTML. I have a Web Development Bootcamp Certificate from the
+            University of Texas, Austin, and a Bachelor's Degree from Indiana University, Bloomington. I am a creative problem-solver and team player with a passion for developing apps and learning new technologies.
+          </p>
+          {/* Buttons */}
+          <div className="buttons mt-3">
+            <a href="https://www.linkedin.com/in/derek-modugno-9927b72b1/" className='mb-2 m-2'>
+              <button className='btn btn-lg bg-success'>View Linkedin</button>
+            </a>
+            <a href="https://github.com/derekm129" className='mb-2 m-2'>
+              <button className='btn btn-lg bg-success'>View GitHub</button>
+            </a>
+          </div>
+        </div>
+        {/* Profile Picture */}
+        <div className='col-md-4 mt-4'>
+          <img src={profilePic} id="profilePic" style={{ boxShadow: '0px 0px 3px 3px green' }} />
+        </div>
       </div>
     </div>
+
   );
 }
