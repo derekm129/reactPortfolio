@@ -31,15 +31,6 @@ h4 {
   color: white;
 }
 
-ul {
-  padding-left: 0;
-}
-
-ul li {
-  text-align: center;
-  list-style-position: inside;
-}
-
 p {
   padding: 1rem;
   border-radius: 10px;
@@ -64,6 +55,9 @@ header {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 1rem 0;
   background-image: url('./assets/images/green-background.jpg');
@@ -74,18 +68,26 @@ header {
 }
 
 /* Navbar */
-header nav {
-  float: right;
+.nav-tabs {
+  display: flex; /* Ensure flex layout */
+  justify-content: flex-end; /* Align items to the right */
+  padding-left: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  list-style: none; /* Remove default list styling */
+}
+
+.nav-item {
+  list-style: none; /* Remove default list styling */
 }
 
 .nav-link {
-  color: white;
+  color: white; /* Ensure text color is white */
+  margin-left: 1rem; /* Add space between items */
+  text-decoration: none; /* Remove underline from links */
 }
 
-header nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-  margin-top: 35px;;
+.nav-link.active {
+  font-weight: bold; /* Highlight active link */
 }
 
 /* Profile Picture */
