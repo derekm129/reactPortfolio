@@ -8,8 +8,9 @@ import App from './App';
 // import Error from './pages/Error';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import About from './pages/Home';
 import Resume from './pages/Resume';
+import Portfolio from './pages/Portfolio';
 
 
 
@@ -27,11 +28,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/About',
-        element: <About />,
+        element: <Home />,
       },
       {
         path: '/Portfolio',
-        element: <Home />,
+        element: <Portfolio />,
       },
       {
         path: '/Contact',
