@@ -42,13 +42,13 @@ export default function Portfolio() {
           url={"https://derekm129.github.io/calendarApp/"}
           // deployment={"https://github.com/derekm129/calendarApp"}
           body={calendar}
-          title={"Calendar App"}
+          title={"Day Planner App"}
         />
         <Project
           url={"https://syntax-8rz6.onrender.com/"}
           // deployment={"https://github.com/grayd500/Syntax"}
           body={syntax}
-          title={"Fictional Band Page (Group Project)"}
+          title={"UTA Final Group Project"}
         />
       </div>
     </div>

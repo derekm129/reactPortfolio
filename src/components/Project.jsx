@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Project(props) {
   return (
-    <div className='parentContainer'>
+    <div className='parentContainer mt-5'>
       <div className="project row justify-content-center align-items-center">
         {/* Title */}
         <a href={props.deployment}>
