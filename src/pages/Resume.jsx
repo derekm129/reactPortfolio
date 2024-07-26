@@ -1,5 +1,5 @@
-import ResumePDF from '../utils/DerekModugno_Resume2024.pdf';
-import resumejpg from '../assets/images/resume1.png';
+import ResumePDF from '../utils/DerekModugno_Resume.pdf';
+import resumejpg from '../assets/images/resume2.png';
 import '../App.css';
 
 function App() {
