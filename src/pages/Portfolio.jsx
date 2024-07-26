@@ -2,14 +2,12 @@ import Project from '../components/Project';
 import '../App.css';
 
 // Project Images
-import horisean from '../assets/images/horisean.png';
 import syntax from '../assets/images/syntaxScreenshot.png';
-import project1 from '../assets/images/project1Page.png';
 import ecommerce from '../assets/images/e-commerce.png';
 import employeeTracker from '../assets/images/employeeTracker.png';
 import calendar from '../assets/images/calendar.png';
 import pwGenerator from '../assets/images/pwGeneratorScreenshot.png';
-import quiz from '../assets/images/quizScreenshot.png';
+import weather from '../assets/images/wthrScreenshot.png';
 
 // Home Page
 export default function Portfolio() {
@@ -23,10 +21,10 @@ export default function Portfolio() {
           title={"Password Generator"}
         />
         <Project
-          url={"https://derekm129.github.io/timedQuiz/"}
+          url={"https://derekm129.github.io/weatherDashboard/"}
           // deployment={"https://github.com/derekm129/timedQuiz"}
-          body={quiz}
-          title={"TimedQuiz"}
+          body={weather}
+          title={"Weather Dashboard"}
         />
         <Project
           url={"https://github.com/derekm129/E-commerce-Back-End"}
@@ -50,7 +48,7 @@ export default function Portfolio() {
           url={"https://syntax-8rz6.onrender.com/"}
           // deployment={"https://github.com/grayd500/Syntax"}
           body={syntax}
-          title={"Fictional Band Page"}
+          title={"Fictional Band Page (Group Project)"}
         />
       </div>
     </div>
