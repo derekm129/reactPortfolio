@@ -146,13 +146,7 @@ header {
   transition:all .5s ease-in-out;
 }
 
-.projectContainer:hover {
-  background-color: azure;
-  opacity: 1;
-  border: 5px solid rgb(136, 25, 25);
-  height: 150px;
-  width: 300px;
-}
+
 
 
 /* Project images */
@@ -190,3 +184,45 @@ header {
   margin-right: 10px;
 }
 
+/* Mobile media query */
+@media (max-width: 768px) {
+  /* Nav Bar */
+  .nav-tabs {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 0; /* Remove padding */
+  }
+
+  .nav-item {
+    margin: 0.5rem 0; /* Add space between items */
+  }
+
+  .nav-link {
+    margin-left: 0; /* Remove left margin */
+    padding: 0.5rem 1rem; /* Add padding for touch devices */
+  }
+  /* Projects */
+  .projects-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+    margin-top: 10px;
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .project-title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .parentContainer {
+    width: 100%;
+  }
+
+  .anotherContainer {
+    width: auto;
+  }
+}
