@@ -186,6 +186,10 @@ header {
 
 /* Mobile media query */
 @media (max-width: 768px) {
+
+  h2 {
+    font-size: 25px;
+  }
   /* Header */
   .header {
     padding: 1rem; /* Adjust padding for smaller screens */
