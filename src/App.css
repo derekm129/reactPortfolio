@@ -186,6 +186,15 @@ header {
 
 /* Mobile media query */
 @media (max-width: 768px) {
+  /* Header */
+  .header {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .container {
+    padding: 0; /* Remove padding for container to allow full-width header */
+  }
+
   /* Nav Bar */
   .nav-tabs {
     flex-direction: column; /* Stack items vertically */
