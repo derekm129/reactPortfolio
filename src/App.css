@@ -203,11 +203,23 @@ header {
   }
   /* Projects */
   .parentContainer {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .anotherContainer {
+    width: auto;
   }
 
   .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 90%;
     margin-top: 10px;
     height: auto; /* Allow height to adjust based on content */
@@ -218,13 +230,6 @@ header {
     margin-top: 10px;
   }
 
-  .parentContainer {
-    width: 100%;
-  }
-
-  .anotherContainer {
-    width: auto;
-  }
   /* Resume */
   #resumeImg {
     height: 400px;
