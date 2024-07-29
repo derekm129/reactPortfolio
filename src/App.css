@@ -243,6 +243,28 @@ header {
     margin-top: 10px;
   }
 
+  /* Contact */
+  .card-container {
+    padding: 1rem;
+  }
+  .card {
+    padding: 1rem;
+  }
+
+  input, textarea, button {
+    width: auto;
+    margin: 0.5rem 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .--btn--btn-primary {
+    width: 100%;
+    padding: 0.75rem;
+  }
+
   /* Resume */
   #resumeImg {
     height: 400px;

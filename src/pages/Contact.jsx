@@ -21,7 +21,7 @@ export default function Contact() {
   };
   // Contact Page
   return (
-    <div className="d-flex justify-content-center align-items-center">
+    <div className="card-container d-flex justify-content-center">
       <div className="card p-1 mt-5" style={{ width: '100%', maxWidth: '500px', height: 'auto', minHeight: '400px' }}>
         <h1 className="mb-2 text-dark text-center">Contact Me</h1>
         <section>
