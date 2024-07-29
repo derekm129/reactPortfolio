@@ -202,7 +202,7 @@ header {
     padding: 0.5rem 1rem; /* Add padding for touch devices */
   }
   /* Projects */
-  .projects-list {
+  .parentContainer {
     flex-direction: column;
     align-items: center;
   }
@@ -224,5 +224,10 @@ header {
 
   .anotherContainer {
     width: auto;
+  }
+  /* Resume */
+  #resumeImg {
+    height: 400px;
+    width: 300px; 
   }
 }
