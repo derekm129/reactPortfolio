@@ -93,8 +93,9 @@ header {
 /* Profile Picture */
 #profilePic {
   border-radius: 50%;
-  width: 100%;
+  width: 75%;
   max-width: 350px;
+  max-height: 350px;
 }
 
 /* Project Sections */
