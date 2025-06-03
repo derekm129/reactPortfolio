@@ -15,7 +15,7 @@ N/A
 
 This webpage shows my professional portfolio with links to my projects, contact page, resume, and about me.
 
-![My Portfolio](./src/assets/images/screenshot2.png)
+![My Portfolio](./src/assets/images/screenshot3.png)
 
 https://main--shimmering-parfait-ac6ce5.netlify.app/
 
