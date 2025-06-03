@@ -1,4 +1,4 @@
-import profilePic from '../assets/images/DerekLinkdin_Final.png';
+import profilePic from '../assets/images/linkedinPic2.jpg';
 import '../App.css';
 
 
