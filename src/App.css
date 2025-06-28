@@ -93,7 +93,7 @@ header {
 /* Profile Picture */
 #profilePic {
   border-radius: 50%;
-  width: 75%;
+  width: 60%;
   max-width: 350px;
   max-height: 350px;
 }
