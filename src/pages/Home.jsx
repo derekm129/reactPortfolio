@@ -8,9 +8,9 @@ export default function Home() {
       <div className='row justify-content-center align-items-center'>
         {/* Bio */}
         <div className='col-md-6 mt-5'>
-          <p className='m-1' style={{ color: 'white', fontSize: '2em' }} >Hello, I'm Derek Modugno and I'm a fullstack developer.</p>
+          <p className='m-1' style={{ color: 'white', fontSize: '2em' }} >Hello, I'm Derek Modugno and I'm a Fullstack Developer.</p>
           <p className='m-1' style={{ color: 'white', fontSize: '1.5em' }}>
-            I am skilled with several technologies including JavaScript, CSS, and HTML. I have a Web Development Bootcamp Certificate from the
+            I am skilled with several technologies including JavaScript, Python, React, MySQL, and MongoDB. I have a Web Development Bootcamp Certificate from the
             University of Texas, Austin, and a Bachelor's Degree from Indiana University, Bloomington. I am a creative problem-solver and team player with a passion for developing apps and learning new technologies.
           </p>
           {/* Buttons */}
@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
         {/* Profile Picture */}
-        <div className='col-md-4 mt-4'>
+        <div className='col-md-3 mt-2'>
           <img src={profilePic} id="profilePic" style={{ boxShadow: '0px 0px 3px 3px green' }} />
         </div>
       </div>
